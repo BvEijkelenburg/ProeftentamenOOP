@@ -1,0 +1,3 @@
+Allereerst voer je een commit uit, om je eigen wijzigingen door te voeren in je lokale repository.
+Daarna kan je een pull uitvoeren om de wijzigigen van GitHub binnen te halen, en eventuele conflicten mergen.
+Als laatste stap doe je een push naar naar GitHub om jouw wijzigen ook daar te krijgen.

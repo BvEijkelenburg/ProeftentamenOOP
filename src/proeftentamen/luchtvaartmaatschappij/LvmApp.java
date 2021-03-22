@@ -27,7 +27,7 @@ public class LvmApp extends Application {
     public static void main(String[] args) {
         /* Aanmaken voorbeeldbestand, geen onderdeel van de opgaven */
 
-        LuchtvaartMaatschappij lvm = new LuchtvaartMaatschappij("HU-air");
+        LuchtvaartMaatschappij lvm = new LuchtvaartMaatschappij("KLM");
         lvm.voegVliegtuigToe(new Vliegtuig("Boeing 787-9", 2, "PH-BHP"));
         try (var x = new ObjectOutputStream(Files.newOutputStream(Path.of("lvm.obj")))) {
             x.writeObject(lvm);

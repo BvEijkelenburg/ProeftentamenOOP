@@ -6,7 +6,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="163.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proeftentamen.luchtvaartmaatschappij.LvmController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="163.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proeftentamen.luchtvaartmaatschappij.LvmController">
    <children>
       <Label fx:id="meldingen" layoutX="26.0" layoutY="14.0" prefHeight="17.0" prefWidth="374.0" text="Geen luchtvaartmaatschappij geladen!" />
       <ListView fx:id="lijst" layoutX="26.0" layoutY="48.0" prefHeight="97.0" prefWidth="200.0" />
